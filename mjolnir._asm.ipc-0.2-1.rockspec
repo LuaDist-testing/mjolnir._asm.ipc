@@ -10,7 +10,7 @@ package = "mjolnir._asm.ipc"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "0.1-1"
+version = "0.2-1"
 
 -- General metadata:
 
@@ -19,7 +19,7 @@ local desc = "Provide IPC access to Mjolnir for command line acceess"
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/mjolnir._asm.ipc.git"
 }
 -- Original source
@@ -36,6 +36,7 @@ source = {
 supported_platforms = {"macosx"}
 dependencies = {
   "lua >= 5.2",
+  "mjolnir._asm.settings >= 0.2-1",
 }
 
 -- Build rules:
