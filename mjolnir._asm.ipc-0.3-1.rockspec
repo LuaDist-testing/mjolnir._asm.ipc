@@ -1,3 +1,5 @@
+-- This file was automatically generated for the LuaDist project.
+
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
@@ -15,13 +17,19 @@ version = "0.3-1"
 local url = "github.com/asmagill/mjolnir_asm.ipc"
 local desc = "Provide IPC access to Mjolnir for command line acceess"
 
-source = {url = "git://" .. url, dir = "mjolnir_asm.ipc/"}
-description = {
-  summary = desc,
-  detailed = desc,
-  homepage = "https://" .. url,
-  license = "MIT",
+-- LuaDist source
+source = {
+  tag = "0.3-1",
+  url = "git://github.com/LuaDist-testing/mjolnir._asm.ipc.git"
 }
+-- Original source
+-- source = {url = "git://" .. url, dir = "mjolnir_asm.ipc/"}
+-- description = {
+--   summary = desc,
+--   detailed = desc,
+--   homepage = "https://" .. url,
+--   license = "MIT",
+-- }
 
 -- Dependencies:
 
